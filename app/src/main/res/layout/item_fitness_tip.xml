@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="16dp"
+    android:background="#99ffffff"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/day_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/acme"
+        android:text="Day 1"
+        android:textColor="@color/md_theme_scrim"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/fitness_tittle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/acme"
+        android:paddingTop="8dp"
+        android:text="Fitness Tip Here"
+        android:textColor="@color/md_theme_scrim"
+        android:textSize="16sp"
+        android:textStyle="" />
+
+    <ImageView
+        android:id="@+id/fitness_image"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/day1" />
+
+    <TextView
+        android:id="@+id/fitness_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/advent_pro_light"
+        android:paddingTop="4dp"
+        android:text="Fitness Description here"
+        android:textColor="@color/md_theme_scrim"
+        android:textSize="14sp" />
+
+</LinearLayout>
